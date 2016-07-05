@@ -1,8 +1,9 @@
 Package.describe({
   name: "nishihara:errors",
   summary: "A pattern to display application errors to the user",
-  version: "1.1.0",
-  documentation:null
+  version: "1.1.2",
+  git:'https://github.com/anishihara/errors',
+  documentation:'README.md'
 });
 Package.onUse(function (api, where) {
   api.versionsFrom('0.9.0');
